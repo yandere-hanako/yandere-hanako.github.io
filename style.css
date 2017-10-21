@@ -145,6 +145,7 @@ html{
     .topnav a {display: none;}
 
     .topnav {
+       min-height:50px;
         display:flex;
         justify-content: flex-end;
     }
