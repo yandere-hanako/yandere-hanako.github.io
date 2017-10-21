@@ -213,6 +213,7 @@ html{
   /*my own css*/
 
   .headline{
+      color:rgb(53, 50, 43);
       font-family: chelsea market;
       font-size:3em;
       width: 100vw;
@@ -235,13 +236,33 @@ html{
       flex-direction: column; 
   }
 
-  .my-list-good{
-      height:50vh;
-      
+  #good-stuff{
+     color:rgb(53, 50, 43);
+      padding-top:5vh;
+      background-color:rgb(213, 191, 223);
+      padding-left:20%;
+      height:43vh;
+      margin-bottom:10vh;
+      border-radius:20px;
+      margin-left:200px;
+      margin-right:100px;
+      margin-top:2vh;
+      font-family:chelsea market;
+      font-size:1.5em;
   }
 
-  .my-list-evil{
-      height:50vh;
+  #bad-stuff{
+        color:rgb(53, 50, 43);
+      font-size:1.5em;
+      font-family:cabin sketch;
+      margin-bottom:2vh;
+      margin-left:200px;
+      margin-right:100px;
+      border-radius:20px;
+      padding-top:5vh;
+      padding-left:20%;
+      height:43vh;
+      background-color:rgb(150, 168, 218);
       
   }
 
@@ -250,7 +271,7 @@ html{
       background-color: rgb(229, 192, 217);
 font-family:cabin sketch;
 font-size:1.8em;
-color:rgb(150, 168, 218);
+color:rgb(53, 50, 43);
 padding-left:70px;
 padding-top:30px;
 max-width:90%;
